@@ -1,7 +1,7 @@
 node-express-boilerplate
 =====================
 
-[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
+[![Build Status](https://travis-ci.org/kiettisak-angkanawin/node-express-boilerplate.svg?branch=master)](https://travis-ci.org/kiettisak-angkanawin/node-express-boilerplate)
 
 > A typescript nodejs express boilerplate server, w/ gulp as build system, includes release tooling, testing helpers and CI integration.
 
