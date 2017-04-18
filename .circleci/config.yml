@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:6.10.0
+    working_directory: ~/node-express-boilerplate
+    steps:
+      - checkout
+      - run: mkdir -p ~/node-express-boilerplate/artifacts
+      - run: npm install -g gulp
+      - run: npm install
+      - run: gulp lint
+      - run: gulp test
+      - store_artifacts:
+          path: ~/node-express-boilerplate/artifacts
