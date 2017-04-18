@@ -4,8 +4,8 @@ node_js:
 - '4'
 - '7'
 install:
-  - yarn global add gulp
-  - yarn install
+  - npm install -g gulp
+  - npm install
 script:
   - gulp lint
   - gulp test
